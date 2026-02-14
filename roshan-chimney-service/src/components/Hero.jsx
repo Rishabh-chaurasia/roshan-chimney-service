@@ -13,14 +13,14 @@ function Hero() {
       <div className="hero-content">
         <h1>Professional Chimney Cleaning & Repair</h1>
         <p>Trusted service with fast response</p>
-{/* 
-        <a
+
+        {/* <a
           href="https://wa.me/916206554739"
           className="whatsapp-btn"
           target="_blank"
-        > */}
+        >
           Book on WhatsApp
-        </a>
+        </a> */}
       </div>
 
     </section>
