@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#222;
+    color:white;
+    padding:15px 30px;
+}
+
+nav a{
+    color:white;
+    margin-left:15px;
+    text-decoration:none;
+}
+
+.hero{
+    position:relative;
+}
+
+.hero img{
+    width:100%;
+    height:500px;
+    object-fit:cover;
+}
+
+.hero-text{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color:white;
+    text-align:center;
+}
+
+.hero button{
+    padding:10px 20px;
+    margin-top:10px;
+    background:orange;
+    border:none;
+    cursor:pointer;
+}
+
+section{
+    padding:40px;
+    text-align:center;
+}
+
+.service-container{
+    display:flex;
+    gap:20px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:300px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    padding:15px;
+}
+
+.card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    max-width:400px;
+    margin:auto;
+}
+
+form input, form textarea{
+    margin:10px 0;
+    padding:10px;
+}
+
+footer{
+    background:#222;
+    color:white;
+    padding:15px;
+}
+
+/* Media Query */
+@media(max-width:768px){
+
+header{
+    flex-direction:column;
+}
+
+.hero img{
+    height:300px;
+}
+
+.hero-text h1{
+    font-size:20px;
+}
+
+}
