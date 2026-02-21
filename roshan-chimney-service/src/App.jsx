@@ -11,6 +11,14 @@ import Footer from "./components/Footer";
 import CallBar from "./components/CallBar";
 import ServiceArea from "./components/ServiceArea";
 import FAQ from "./components/FAQ";
+import Brands from "./components/Brands";
+import Gallery from "./components/Gallery";
+import HowItWorks from "./components/HowItWorks";
+import StickyBooking from "./components/StickyBooking";
+import BookingForm from "./components/BookingForm";
+
+
+
 
 
 import "./App.css";
@@ -20,10 +28,17 @@ function App() {
    <>
   <Navbar />
   <Hero />
+  <BookingForm />
+
 
   <TrustBar />
 
   <Services />
+  <HowItWorks />
+
+<Gallery />
+<Brands />
+
 
   <WhyChoose />
 
@@ -37,6 +52,8 @@ function App() {
   <Contact />
   <Footer />
   <CallBar />
+  <StickyBooking />
+
 
 </>
 

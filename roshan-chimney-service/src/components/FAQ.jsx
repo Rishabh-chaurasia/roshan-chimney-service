@@ -1,22 +1,21 @@
 function FAQ() {
   return (
     <section className="section">
-
       <h2>Frequently Asked Questions</h2>
 
       <div className="card">
-        <h3>How often should chimney be cleaned?</h3>
-        <p>Every 3 to 6 months depending on usage.</p>
+        <h3>Do you service all chimney brands?</h3>
+        <p>Yes — we service all major brands across NCR.</p>
       </div>
 
       <div className="card">
-        <h3>Do you provide same day service?</h3>
-        <p>Yes, we try to provide same day service.</p>
+        <h3>Do you provide repair?</h3>
+        <p>Yes — complete service and repairing available.</p>
       </div>
 
       <div className="card">
-        <h3>What brands do you service?</h3>
-        <p>We service all major chimney brands.</p>
+        <h3>Do you cover all NCR?</h3>
+        <p>Yes — Delhi, Noida, Gurugram, Ghaziabad and nearby areas.</p>
       </div>
 
     </section>

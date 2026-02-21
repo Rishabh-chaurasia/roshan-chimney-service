@@ -1,14 +1,11 @@
 function ServiceArea() {
   return (
     <section className="section">
-
-      <h2>Service Areas</h2>
+      <h2>Service Available Across All NCR</h2>
 
       <p>
-        We provide chimney cleaning and repair services in
-        Greater Noida and nearby locations with fast response.
+        Delhi • Noida • Greater Noida • Ghaziabad • Gurugram • Faridabad
       </p>
-
     </section>
   );
 }

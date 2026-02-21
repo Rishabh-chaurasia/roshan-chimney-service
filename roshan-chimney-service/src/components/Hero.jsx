@@ -1,27 +1,48 @@
 function Hero() {
   return (
-    <section className="hero">
+    <section className="hero-booking">
 
-      <img
-  src="https://hometriangle.com/imagecache/media/523298/package.png"
-  alt="Kitchen chimney cleaning service"
-  className="hero-img"
-/>
+      <div className="hero-left">
 
+        <h1>Book Chimney Service in NCR</h1>
 
+        <p>Same day cleaning & repair by verified technician.</p>
 
-      <div className="hero-content">
-        <h1>Professional Chimney Cleaning & Repair</h1>
-        <p>Trusted service with fast response</p>
+        <div className="booking-box">
 
-        {/* <a
-          href="https://wa.me/916206554739"
-          className="whatsapp-btn"
-          target="_blank"
-        >
-          Book on WhatsApp
-        </a> */}
+          <select>
+            <option>Select Service</option>
+            <option>Chimney Cleaning</option>
+            <option>Chimney Repair</option>
+            <option>HOB Service</option>
+            <option>Microwave Repair</option>
+            <option>OTG Service</option>
+          </select>
+
+          <input type="text" placeholder="Enter Phone Number" />
+
+          <a
+            href="https://wa.me/916206554739"
+            className="book-btn"
+          >
+            Book Now
+          </a>
+
+          <small>⚡ We call within 30 minutes</small>
+
+        </div>
+
       </div>
+
+      <div className="hero-right">
+        <img src="https://hometriangle.com/imagecache/media/523298/package.png"/>
+      </div>
+<div className="trust-strip">
+  ⭐ 1000+ Customers Served
+  ⚡ Same Day Service
+  🔧 Verified Technician
+  💰 Transparent Pricing
+</div>
 
     </section>
   );
