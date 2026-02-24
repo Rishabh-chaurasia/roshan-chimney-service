@@ -20,7 +20,7 @@ chimney repair Noida and chimney service NCR with same day service.
             <option>Chimney Repair</option>
             <option>HOB Service</option>
             <option>Microwave Repair</option>
-            <option>OTG Service</option>
+            <option>Oven Service</option>
           </select>
 
           <input type="text" placeholder="Enter Phone Number" />

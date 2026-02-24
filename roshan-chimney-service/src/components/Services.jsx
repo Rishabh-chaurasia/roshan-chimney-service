@@ -5,7 +5,7 @@ function Services() {
     "HOB Cleaning",
     "Gas Stove Repair",
     "Microwave Repair",
-    "OTG Service"
+    "Oven Service"
   ];
 
   return (

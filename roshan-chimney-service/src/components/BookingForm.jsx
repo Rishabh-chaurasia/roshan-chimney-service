@@ -6,6 +6,7 @@ function BookingForm() {
   const [form,setForm] = useState({
     name:"",
     phone:"",
+    email:"",
     service:"",
     area:""
   });
@@ -23,12 +24,18 @@ function BookingForm() {
       {
         user_name: form.name,
         user_phone: form.phone,
+        user_email: form.email,
         message: `${form.service} booking in ${form.area}`
       },
       "CGu4BsCALufnWOH4G"
-    );
-
-    alert("Booking received — we will call you soon");
+    )
+    .then(()=>{
+      alert("Booking sent successfully");
+    })
+    .catch((error)=>{
+      console.error(error);
+      alert("Email failed — check EmailJS settings");
+    });
 
     window.open(
       `https://wa.me/916206554739?text=Booking Request: ${form.service} in ${form.area}`,
@@ -38,6 +45,7 @@ function BookingForm() {
     setForm({
       name:"",
       phone:"",
+      email:"",
       service:"",
       area:""
     });
@@ -66,6 +74,14 @@ function BookingForm() {
           required
         />
 
+        <input
+          name="email"
+          placeholder="Your Email"
+          value={form.email}
+          onChange={handleChange}
+          required
+        />
+
         <select
           name="service"
           value={form.service}
@@ -77,12 +93,12 @@ function BookingForm() {
           <option>Chimney Deep Cleaning</option>
           <option>HOB Service</option>
           <option>Microwave Repair</option>
-          <option>OTG Service</option>
+          <option>Oven Service</option>
         </select>
 
         <input
           name="area"
-          placeholder="Your Area (Noida / Delhi / etc)"
+          placeholder="Your Area"
           value={form.area}
           onChange={handleChange}
           required
