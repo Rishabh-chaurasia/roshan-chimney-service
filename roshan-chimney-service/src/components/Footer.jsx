@@ -5,7 +5,8 @@ function Footer() {
       <div className="footer-container">
 
         <div>
-          <h2>Chimney Service NCR</h2>
+          <h2>Chimney Service and Repair</h2>
+
           <p>Professional cleaning and repair services.</p>
         </div>
 
@@ -27,7 +28,8 @@ function Footer() {
       </div>
 
       <div className="footer-bottom">
-        © 2026 Chimney Service NCR
+       © 2026 Chimney Service and Repair — All Rights Reserved
+
       </div>
 
     </footer>

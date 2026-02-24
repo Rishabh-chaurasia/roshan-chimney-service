@@ -338,3 +338,44 @@ body {
   border-radius: 8px;
   cursor: pointer;
 }
+/* Desktop grid */
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  gap: 20px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* Mobile slider */
+
+.gallery-slider {
+  display: none;
+  max-width: 500px;
+  margin: auto;
+}
+
+.gallery-slider img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+/* Responsive switch */
+
+@media (max-width:768px){
+
+  .gallery-grid.desktop {
+    display: none;
+  }
+
+  .gallery-slider.mobile {
+    display: block;
+  }
+
+}

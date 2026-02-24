@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <header className="navbar">
 
-      <h2>Chimney Service NCR</h2>
+      <h2>Chimney Service & Repair</h2>
 
       <div className="menu-toggle" onClick={()=>setOpen(!open)}>
         ☰

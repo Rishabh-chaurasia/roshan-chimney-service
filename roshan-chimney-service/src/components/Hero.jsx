@@ -4,9 +4,13 @@ function Hero() {
 
       <div className="hero-left">
 
-        <h1>Book Chimney Service in NCR</h1>
+        <h1>Trusted Chimney Service & Repair for All Brands</h1>
 
         <p>Same day cleaning & repair by verified technician.</p>
+<p>
+We provide chimney repair near me, chimney cleaning Delhi,
+chimney repair Noida and chimney service NCR with same day service.
+</p>
 
         <div className="booking-box">
 

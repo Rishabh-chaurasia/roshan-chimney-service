@@ -26,7 +26,8 @@ function Contact() {
   return (
     <section id="contact" className="section">
 
-      <h2>Contact Roshan</h2>
+      <h2>Contact Chimney Service and Repair</h2>
+
 
       <form ref={form} onSubmit={sendEmail} className="contact-form">
 
