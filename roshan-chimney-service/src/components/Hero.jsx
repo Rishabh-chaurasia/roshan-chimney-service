@@ -7,10 +7,10 @@ function Hero() {
         <h1>Trusted Chimney Service & Repair for All Brands</h1>
 
         <p>Same day cleaning & repair by verified technician.</p>
-<p>
+{/* <p>
 We provide chimney repair near me, chimney cleaning Delhi,
 chimney repair Noida and chimney service NCR with same day service.
-</p>
+</p> */}
 
         <div className="booking-box">
 
