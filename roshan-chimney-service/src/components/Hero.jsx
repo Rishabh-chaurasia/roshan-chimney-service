@@ -42,7 +42,7 @@ chimney repair Noida and chimney service NCR with same day service.
         <img src="https://hometriangle.com/imagecache/media/523298/package.png"/>
       </div>
 <div className="trust-strip">
-  ⭐ 1000+ Customers Served
+  ⭐ 4500+ Customers Served
   ⚡ Same Day Service
   🔧 Verified Technician
   💰 Transparent Pricing
