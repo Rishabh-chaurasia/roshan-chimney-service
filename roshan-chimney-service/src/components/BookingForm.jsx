@@ -30,6 +30,13 @@ function BookingForm() {
       "CGu4BsCALufnWOH4G"
     )
     .then(()=>{
+      // 🔥 GOOGLE ADS CONVERSION TRACKING
+      if (window.gtag) {
+        window.gtag('event', 'conversion', {
+          send_to: 'AW-17974415881'
+        });
+      }
+
       alert("Booking sent successfully");
     })
     .catch((error)=>{
@@ -37,6 +44,7 @@ function BookingForm() {
       alert("Email failed — check EmailJS settings");
     });
 
+    // 🔥 WHATSAPP REDIRECT
     window.open(
       `https://wa.me/916206554739?text=Booking Request: ${form.service} in ${form.area}`,
       "_blank"
