@@ -3,19 +3,19 @@ import emailjs from "@emailjs/browser";
 
 function BookingForm() {
 
-  const [form,setForm] = useState({
-    name:"",
-    phone:"",
-    email:"",
-    service:"",
-    area:""
+  const [form, setForm] = useState({
+    name: "",
+    phone: "",
+    email: "",
+    service: "",
+    area: ""
   });
 
-  const handleChange = (e)=>{
-    setForm({...form,[e.target.name]:e.target.value});
+  const handleChange = (e) => {
+    setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e)=>{
+  const handleSubmit = (e) => {
     e.preventDefault();
 
     emailjs.send(
@@ -29,33 +29,42 @@ function BookingForm() {
       },
       "CGu4BsCALufnWOH4G"
     )
-    .then(()=>{
-      // 🔥 GOOGLE ADS CONVERSION TRACKING
+    .then(() => {
+
+      alert("Booking sent successfully");
+
+      // ✅ GOOGLE ADS CONVERSION TRACKING (MOST IMPORTANT)
       if (window.gtag) {
         window.gtag('event', 'conversion', {
-          send_to: 'AW-17974415881'
+          send_to: 'AW-17974415881/ymCdCODduoscEImk7_pC' // 
+        });
+
+        // ✅ OPTIONAL (helps Google AI optimize faster)
+        window.gtag('event', 'generate_lead', {
+          value: 1,
+          currency: 'INR'
         });
       }
 
-      alert("Booking sent successfully");
+      // ✅ WhatsApp redirect (only after success)
+      window.open(
+        `https://wa.me/916206554739?text=Booking Request: ${form.service} in ${form.area}`,
+        "_blank"
+      );
+
+      // Reset form
+      setForm({
+        name: "",
+        phone: "",
+        email: "",
+        service: "",
+        area: ""
+      });
+
     })
-    .catch((error)=>{
+    .catch((error) => {
       console.error(error);
       alert("Email failed — check EmailJS settings");
-    });
-
-    // 🔥 WHATSAPP REDIRECT
-    window.open(
-      `https://wa.me/916206554739?text=Booking Request: ${form.service} in ${form.area}`,
-      "_blank"
-    );
-
-    setForm({
-      name:"",
-      phone:"",
-      email:"",
-      service:"",
-      area:""
     });
   };
 
