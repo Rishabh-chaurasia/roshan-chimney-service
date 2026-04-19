@@ -5,9 +5,9 @@ function Footer() {
       <div className="footer-container">
 
         <div>
-          <h2>Chimney Service and Repair</h2>
+          <h2>Chimney & RO Service and Repair</h2>
 
-          <p>Professional cleaning and repair services.</p>
+          <p>Professional cleaning, repair & RO installation services.</p>
         </div>
 
         <div>
@@ -23,12 +23,14 @@ function Footer() {
           <p>HOB</p>
           <p>Microwave</p>
           <p>OTG</p>
+          <p>RO Service</p>
+          <p>RO Installation</p>
         </div>
 
       </div>
 
       <div className="footer-bottom">
-       © 2026 Chimney Service and Repair — All Rights Reserved
+       © 2026 Chimney & RO Service and Repair — All Rights Reserved
 
       </div>
 

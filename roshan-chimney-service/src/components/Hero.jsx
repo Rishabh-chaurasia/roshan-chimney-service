@@ -4,9 +4,9 @@ function Hero() {
 
       <div className="hero-left">
 
-        <h1>Trusted Chimney Service & Repair for All Brands</h1>
+        <h1>Trusted Chimney & RO Service for All Brands</h1>
 
-        <p>Same day cleaning & repair by verified technician.</p>
+        <p>Same day chimney cleaning, repair & RO service by verified technicians.</p>
 {/* <p>
 We provide chimney repair near me, chimney cleaning Delhi,
 chimney repair Noida and chimney service NCR with same day service.
@@ -21,6 +21,9 @@ chimney repair Noida and chimney service NCR with same day service.
             <option>HOB Service</option>
             <option>Microwave Repair</option>
             <option>Oven Service</option>
+            <option>RO Service</option>
+            <option>RO Installation</option>
+            <option>RO Repair</option>
           </select>
 
           <input type="text" placeholder="Enter Phone Number" />

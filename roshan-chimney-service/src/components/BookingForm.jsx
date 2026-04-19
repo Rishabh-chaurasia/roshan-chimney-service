@@ -111,6 +111,9 @@ function BookingForm() {
           <option>HOB Service</option>
           <option>Microwave Repair</option>
           <option>Oven Service</option>
+          <option>RO Service & Filter Change</option>
+          <option>RO Installation</option>
+          <option>RO Repair</option>
         </select>
 
         <input
