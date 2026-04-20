@@ -833,3 +833,89 @@ body {
   .footer-container { grid-template-columns: 1fr; }
   .trust-bar { flex-direction: column; gap: 6px; }
 }
+
+/* ===== FAQ ACCORDION ===== */
+.faq-section { background: #f9f9f9; }
+.faq-sub { color: #666; font-size: 14px; margin-bottom: 20px; }
+
+.faq-list { display: flex; flex-direction: column; gap: 10px; max-width: 820px; margin: 0 auto; }
+
+.faq-item {
+  background: white;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  overflow: hidden;
+  transition: box-shadow 0.2s;
+}
+
+.faq-item.open { box-shadow: 0 4px 16px rgba(0,0,0,0.08); border-color: #00a650; }
+
+.faq-q {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  color: #222;
+  text-align: left;
+  gap: 12px;
+  font-family: inherit;
+}
+
+.faq-q:hover { background: #f9f9f9; }
+
+.faq-icon {
+  font-size: 20px;
+  font-weight: 400;
+  color: #00a650;
+  flex-shrink: 0;
+  width: 24px;
+  text-align: center;
+}
+
+.faq-a { padding: 0 20px 16px; }
+.faq-a p { font-size: 14px; color: #555; line-height: 1.7; }
+
+/* ===== SEO CONTENT SECTION ===== */
+.seo-section { background: #f7f8fa; }
+.seo-section h2 { font-size: 20px; margin-bottom: 10px; color: #222; }
+
+.seo-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  margin-top: 10px;
+}
+
+.seo-block {
+  background: white;
+  border-radius: 12px;
+  padding: 22px;
+  border: 1px solid #eee;
+}
+
+.seo-block p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.75;
+  margin-bottom: 10px;
+}
+
+.seo-block p:last-child { margin-bottom: 0; }
+
+/* Area chip update for subtitle */
+.area-chip strong { display: block; font-size: 14px; }
+.area-chip small  { font-size: 11px; color: #888; display: block; }
+
+/* ===== MOBILE: FAQ & SEO ===== */
+@media (max-width: 768px) {
+  .seo-grid { grid-template-columns: 1fr; gap: 14px; }
+  .faq-q { font-size: 14px; padding: 14px 16px; }
+  .faq-a { padding: 0 16px 14px; }
+  .area-chip { flex-direction: row; align-items: center; }
+}

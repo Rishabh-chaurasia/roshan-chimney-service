@@ -16,6 +16,7 @@ import Brands from "./components/Brands";
 import Gallery from "./components/Gallery";
 import HowItWorks from "./components/HowItWorks";
 import BookingForm from "./components/BookingForm";
+import SeoContent from "./components/SeoContent";
 
 import "./App.css";
 
@@ -36,6 +37,7 @@ function App() {
       <Reviews />
       <CTA />
       <ServiceArea />
+      <SeoContent />
       <FAQ />
       <Contact />
       <Footer />
