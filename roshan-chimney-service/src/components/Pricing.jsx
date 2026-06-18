@@ -7,17 +7,22 @@ function Pricing() {
 
         <div className="card price-card">
           <h3>Chimney Basic Service</h3>
-          <p>₹599</p>
+          <p>₹699</p>
         </div>
 
         <div className="card price-card">
           <h3>Chimney Deep Cleaning</h3>
-          <p>₹1199</p>
+          <p>₹1299</p>
         </div>
 
         <div className="card price-card">
           <h3>HOB Four Burner Cleaning</h3>
-          <p>₹850</p>
+          <p>₹899</p>
+        </div>
+
+        <div className="card price-card">
+          <h3>Dismantle Cleaning</h3>
+          <p>₹1850</p>
         </div>
 
         <div className="card price-card">
