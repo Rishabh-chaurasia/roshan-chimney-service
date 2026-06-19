@@ -15,15 +15,16 @@ function Pricing() {
           <p>₹1299</p>
         </div>
 
+         <div className="card price-card">
+          <h3>Chimney Dismantle Cleaning</h3>
+          <p>₹1850</p>
+        </div>
         <div className="card price-card">
           <h3>HOB Four Burner Cleaning</h3>
           <p>₹899</p>
         </div>
 
-        <div className="card price-card">
-          <h3>Dismantle Cleaning</h3>
-          <p>₹1850</p>
-        </div>
+        
 
         <div className="card price-card">
           <h3>Microwave Service</h3>
